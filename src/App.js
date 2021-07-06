@@ -10,8 +10,9 @@ class App extends Component {
   render() {
     const links = [
       {link: '/', component: 'Home'},
-      {link: '/About', component: 'About'},
-      {link: '/Users', component: 'Users'},
+      {link: '/about', component: 'About'},
+      {link: '/users', component: 'Users'},
+      {link: '/strict-access', component: 'StrictAccess'},
     ]
 
     const userAcessObj = {

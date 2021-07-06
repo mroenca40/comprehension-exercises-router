@@ -13,7 +13,7 @@ class StrictAcces extends Component {
     return (
       <div>
         <h2>Strict Access</h2>
-        <p>Wellcome, { username }! Como você está hoje?</p>
+        <p>Wellcome, { username }!</p>
       </div>
     );
   }
